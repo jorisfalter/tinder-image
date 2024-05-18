@@ -8,7 +8,7 @@ input_image4 = open("joris4.jpeg", "rb");
 
 
 input = {
-    "prompt": "A passport photo of a man img with a enthusiastic happy spark in his eyes, narrow face and perfect skin with a white background",
+    "prompt": "A man img with a enthusiastic happy spark in his eyes, looks into the camera, wears a shirt, narrow face,  perfect skin, white background",
     "num_steps": 50,
     "input_image": input_image,
     "input_image2": input_image2,
@@ -17,7 +17,7 @@ input = {
     "guidance_scale": 5,
     "style_strength_ratio": 20,
     "style_name": "Photographic (Default)",
-    "negative_prompt": "tired, nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry"
+    "negative_prompt": "big teeth, tired, nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry"
 }
 
 output = replicate.run(
