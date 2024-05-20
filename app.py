@@ -4,16 +4,18 @@ input_image = open("joris.jpeg", "rb");
 input_image2 = open("joris2.jpeg", "rb");
 input_image3 = open("joris3.jpeg", "rb");
 input_image4 = open("joris4.jpeg", "rb");
+input_image5 = open("joris5.jpeg", "rb");
+input_image6 = open("joris6.jpeg", "rb");
 
 
 
 input = {
-    "prompt": "A man img with a enthusiastic happy spark in his eyes, looks into the camera, wears a shirt, narrow face,  perfect skin, white background",
+    "prompt": "A young man img, happy spark in his eyes, enthusiastic, face oriented towards camera, perfect skin, white background",
     "num_steps": 50,
-    "input_image": input_image,
-    "input_image2": input_image2,
-    "input_image2": input_image3,
-    "input_image2": input_image4,
+    "input_image": input_image4,
+    "input_image2": input_image5,
+    "input_image3": input_image6,
+    # "input_image4": input_image6,
     "guidance_scale": 5,
     "style_strength_ratio": 20,
     "style_name": "Photographic (Default)",
